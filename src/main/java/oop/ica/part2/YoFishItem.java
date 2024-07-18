@@ -5,10 +5,10 @@
 package oop.ica.part2;
 
 /*
- * This class represents a specific type of fish product called YoFishItem which extends the FishProduct class.
+ * This class represents a specific type of fish product called YoFishItem which extends the base class, FishProduct.
  * It will provides additional attributes and functionalities that are specific to YoFishItem objects.
  * 
- * @author Eric Ogie Aghahowa S3186984
+ * @author Eric Ogie Aghahowa
  */
 public class YoFishItem extends FishProduct {
 

@@ -8,7 +8,7 @@ package oop.ica.part2;
  * This class represents a generic fish product with common attributes and functionalities.
  * It serves as the parent class for more specific types of fish products.
  * 
- * @author Eric Ogie Aghahowa - S3186984
+ * @author Eric Ogie Aghahowa
  */
 public class FishProduct {
     // Common Data Attributes
@@ -41,7 +41,7 @@ public class FishProduct {
         this.highTemp = highTemp;
     }
     
-    // Common accessor methods
+    // Common accessors
     public int getId() {
         return id;
     }
@@ -70,12 +70,12 @@ public class FishProduct {
         return highTemp;
     }
     
-    // Common mutatator methods
+    // Common mutatators
     public void setStock(int stock) {
         this.stock = stock;
     }
     
-    // Common useful none-generic methods
+    // Common useful methods
     public String getFormattedPrice(){
         return "£ " + String.format("%.2f", price);
     }

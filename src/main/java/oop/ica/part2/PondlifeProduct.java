@@ -6,7 +6,7 @@ package oop.ica.part2;
 
 /**
  *
- * @author Eric Ogie Aghahowa - S3186984
+ * @author Eric Ogie Aghahowa
  */
 public class PondlifeProduct {
     //fields

@@ -18,7 +18,7 @@ import static oop.ica.part2.Constants.*;
 
 /**
  *
- * @author S3186984
+ * @author Eric Ogie Aghahowa
  */
 public class YoFishGUI extends javax.swing.JFrame {
 

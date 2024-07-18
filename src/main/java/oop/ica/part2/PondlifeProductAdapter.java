@@ -5,10 +5,10 @@
 package oop.ica.part2;
 
 /*
- * This class serves as an adapter to convert PondlifeProduct objects into FishProduct objects.
- * It allows PondlifeProduct objects to be used in contexts where FishProduct objects are expected.
+ * This class serves as an adapter that adapts PondlifeProduct into a type of FishProduct class.
+ * It allows an object with PondlifeProduct attributes to be used in contexts where FishProduct object is expected.
  * 
- * @author Eric Ogie Aghahowa - S3186984
+ * @author Eric Ogie Aghahowa
  */
 public class PondlifeProductAdapter extends FishProduct {
     

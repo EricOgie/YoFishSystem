@@ -21,11 +21,11 @@ import static oop.ica.part2.Constants.*;
 
 
 /**
- * Utility class for handling file operations related to FishProduct data.
+ * Utility class for handling file operations related to FishProduct.
  * Provides methods to read input files (yo-fish and Pondlife files) containing FishProduct information,
  * fetch item images, and save FishProduct data to an output file.
  * 
- * @author Eric Ogie Aghahowa - S3186984
+ * @author Eric Ogie Aghahowa
  */
 public class FileUtils {
     
@@ -42,10 +42,8 @@ public class FileUtils {
         ArrayList<FishProduct> fishItemList = new ArrayList<>();
         ArrayList<String> expectedFiles = new ArrayList<>(Arrays.asList(YO_FISH_FILE, POND_LIFE_FILE));
         
-        // Instantiate a File object for the directory
         File directory = new File(INPUT_FILE_DIR);
         
-        // Check if the directory exists and is a valid directory
         if (!directory.exists() || !directory.isDirectory()) {
             throw new NoSuchFileException(DIR_404 + INPUT_FILE_DIR);
         }
