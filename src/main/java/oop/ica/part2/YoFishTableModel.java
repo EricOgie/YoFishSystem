@@ -12,7 +12,7 @@ import javax.swing.table.AbstractTableModel;
 
 /**
  *
- * @author S3186984
+ * @author Eric Ogie Aghahowa
  */
 public class YoFishTableModel extends AbstractTableModel {
     

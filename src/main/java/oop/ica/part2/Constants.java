@@ -6,11 +6,9 @@ package oop.ica.part2;
 
 
 /*
- * Constants class containing various constant values used throughout the application.
- * These constants include exit status, numeric values, file-related paths, table column names,
- * error messages, and message formatting methods.
+ * Constants class containing constant values used throughout the application.
  * 
- * @author Eric Ogie Aghahowa - S3186984
+ * @author Eric Ogie Aghahowa
  */
 public class Constants {
     
